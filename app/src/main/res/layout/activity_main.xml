@@ -9,8 +9,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="jp.libsys.satouhiroyuki.librarysystem.MainActivity">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QRコード読み取り"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="New Text"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true" />
 </RelativeLayout>
